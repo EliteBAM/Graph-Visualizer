@@ -11,7 +11,7 @@ body, html {
     max-width: 960px;
     margin: 20px auto;
     text-align: center;
-    background: white;
+    background: rgb(20, 27, 36);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
