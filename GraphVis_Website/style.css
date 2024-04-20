@@ -4,7 +4,7 @@ body, html {
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
-    background: rgb(88, 107, 107); /* Lighter Charcoal Grey */
+    background: rgb(14, 17, 17); /* Lighter Charcoal Grey */
     color: rgba(229, 229, 229, 0.899); /* Light gray for text */
 }
 
