@@ -1,4 +1,4 @@
-# Try it out Here! [Link to external site](https://graph-visualizer.io)
+# Try it out Here! [graph-visualizer.io](https://graph-visualizer.io)
 
 
 # Graph-Visualizer
