@@ -21,7 +21,7 @@ body, html {
     height: auto; /* Allows the height to adjust based on content */
     max-width: 960px; /* Maximum width */
     max-height: 90vh; /* Limits the height to prevent excessive vertical size */
-    margin: 1vh auto; /* Minimal vertical margin */
+    margin: 5vh auto; /* Minimal vertical margin */
     text-align: center;
     background: rgb(90, 90, 90); /* If you want the container in Pastel Teal instead, change this to #AACC */
     padding: 20px;
@@ -36,8 +36,15 @@ body, html {
 
 .unity-container {
     width: 100%; /* Ensures Unity player expands to fill the container */
-    height: 100%; /* Ensures Unity player expands to fill the container */
-    max-height: 100%; /* Optional, to ensure it doesn't overflow */
+    height: auto; /* Ensures Unity player expands to fill the container */
+    max-height: 70vh; /* Adjusts based on your actual needs */
+}
+
+#unity-canvas {
+    width: 100%; /* Full width */
+    max-height: 75vh; /* Limits height but maintains full width */
+    aspect-ratio: 16 / 9; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the canvas fits within the dimensions without distorting */
 }
 
 /* Header styling */
