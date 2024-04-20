@@ -42,7 +42,7 @@ body, html {
 
 #unity-canvas {
     width: 100%; /* Full width */
-    max-height: 75vh; /* Limits height but maintains full width */
+    max-height: 60vh; /* Limits height but maintains full width */
     aspect-ratio: 16 / 9; /* Maintain aspect ratio */
     object-fit: contain; /* Ensure the canvas fits within the dimensions without distorting */
 }
