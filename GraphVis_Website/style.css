@@ -4,8 +4,8 @@ body, html {
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
-    background: #5A5A5A; /* Lighter Charcoal Grey */
-    color: #E5E5E5; /* Light gray for text */
+    background: rgb(88, 107, 107); /* Lighter Charcoal Grey */
+    color: rgba(229, 229, 229, 0.899); /* Light gray for text */
 }
 
 /* Container styling */
@@ -14,17 +14,17 @@ body, html {
     max-width: 960px;
     margin: 20px auto;
     text-align: center;
-    background: #FFFFFF; /* White background, change to #AACC for Pastel Teal if preferred */
+    background: rgb(90, 90, 90); /* If you want the container in Pastel Teal instead, change this to #AACC */
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.472);
+    border-radius: 8px; /* Rounded corners */
 }
 
 /* Header styling */
 h1 {
     font-size: 24px;
-    color: #222; /* Dark gray, change to #E5E5E5 for light gray text if needed */
-    letter-spacing: 0.1em; /* Increases spacing between characters */
+    color: rgba(229, 229, 229, 0.899); /* Dark gray, change to #E5E5E5 for light gray text if needed */
+    letter-spacing: 0.5em; /* Increases spacing between characters */
 }
 
 /* Paragraph styling */
@@ -35,7 +35,7 @@ p {
 
 /* Link styling */
 a {
-    color: #AACC; /* Pastel Teal for links */
+    color: rgb(170, 204, 204); /* Pastel Teal for links */
     text-decoration: none;
 }
 a:hover {
