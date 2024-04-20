@@ -22,11 +22,11 @@ body, html {
     justify-content: flex-start;
     align-items: center;
     width: 80vw;
-    max-width: 100vh;
+    max-width: 115vh;
     min-width: 90vh; /* Ensures container uses at least a certain height */
     min-height: 80vh; /* Ensures container uses at least a certain height */
     max-height: 100vh; /* Limits container to not exceed 90% of viewport height */
-    margin: 1vh auto;
+    margin: 0.5vh auto;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.472);
     border-radius: 8px;
