@@ -1188,4 +1188,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/GraphVisualizerScene.unity
-  playerPath: C:/Users/bobby/Documents/GitHub/Graph-Visualizer/_Builds/WebGL
+  playerPath: C:/Users/bobby/Documents/GitHub/Graph-Visualizer/GraphVis_Website/Unity_WebGL
