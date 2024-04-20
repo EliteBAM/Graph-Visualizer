@@ -23,7 +23,7 @@ body, html {
     align-items: center;
     width: 80vw;
     max-width: 100vh;
-    min-width: 80vh; /* Ensures container uses at least a certain height */
+    min-width: 90vh; /* Ensures container uses at least a certain height */
     min-height: 80vh; /* Ensures container uses at least a certain height */
     max-height: 100vh; /* Limits container to not exceed 90% of viewport height */
     margin: 1vh auto;
@@ -36,7 +36,7 @@ body, html {
 
 /* Unity canvas setup */
 .unity-container {
-    width: 90%;
+    width: 100%;
     height: auto;
     max-height: 60vh; /* Reduced to ensure room for other content */
 }
