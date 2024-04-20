@@ -3,6 +3,7 @@ body, html {
     height: 100%;
     width: 100%;
     margin: 0;
+    margin-top: 10px; /* Reduce top margin to bring title closer to the top */
     padding: 0;
     display: flex;
     flex-direction: column;  /* Stack content vertically */
