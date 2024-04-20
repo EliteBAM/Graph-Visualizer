@@ -20,12 +20,18 @@ body, html {
     height: 45vw; /* Height based on the width to maintain aspect ratio */
     max-width: 960px; /* Maximum width */
     max-height: 540px; /* Maximum height based on 16:9 ratio */
-    margin: 2vh auto; /* Vertical margin for buffer */
+    margin: 0.5vh auto; /* Vertical margin for buffer */
     text-align: center;
     background: rgb(90, 90, 90); /* If you want the container in Pastel Teal instead, change this to #AACC */
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.472);
     border-radius: 8px; /* Rounded corners */
+}
+
+.unity-container {
+    width: 100%; /* Ensures Unity player expands to fill the container */
+    height: 100%; /* Ensures Unity player expands to fill the container */
+    max-height: 100%; /* Optional, to ensure it doesn't overflow */
 }
 
 /* Header styling */
