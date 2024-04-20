@@ -1,11 +1,17 @@
 /* Global settings */
 body, html {
     height: 100%;
+    width: 100%;
     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     background: rgb(14, 17, 17); /* Dark Background Color */
     color: rgba(229, 229, 229, 0.899); /* Light gray for text */
+    overflow: hidden; /* Prevents scrolling */
 }
 
 /* Container styling */
