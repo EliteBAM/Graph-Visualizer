@@ -24,7 +24,7 @@ body, html {
     width: 80vw;
     max-width: 960px;
     min-height: 80vh; /* Ensures container uses at least a certain height */
-    max-height: 90vh; /* Limits container to not exceed 90% of viewport height */
+    max-height: 85vh; /* Limits container to not exceed 90% of viewport height */
     margin: 1vh auto;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.472);
