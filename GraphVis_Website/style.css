@@ -50,7 +50,8 @@ body, html {
 
 /* Header styling */
 h1 {
-    margin-top: 5px; /* Reduce top margin to bring title closer to the top */
+    padding: 0;
+    margin: 0px; /* Reduce top margin to bring title closer to the top */
     font-size: 24px;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
