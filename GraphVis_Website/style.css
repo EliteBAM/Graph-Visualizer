@@ -14,7 +14,7 @@ body, html {
     max-width: 960px;
     margin: 20px auto;
     text-align: center;
-    background: white; /* If you want the container in Pastel Teal instead, change this to #AACC */
+    background: #AACC; /* If you want the container in Pastel Teal instead, change this to #AACC */
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
