@@ -1,34 +1,39 @@
+/* Global settings */
 body, html {
     height: 100%;
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 300; /* Sets the light weight for the Fira Sans font */
-    background: #18232c;
-    color: #333;
+    font-weight: 300;
+    background: #5A5A5A; /* Lighter Charcoal Grey */
+    color: #E5E5E5; /* Light gray for text */
 }
 
+/* Container styling */
 .container {
     width: 80%;
     max-width: 960px;
     margin: 20px auto;
     text-align: center;
-    background: white;
+    background: white; /* If you want the container in Pastel Teal instead, change this to #AACC */
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+/* Header styling */
 h1 {
     font-size: 24px;
-    color: #222;
+    color: #222; /* Dark gray, change to #E5E5E5 for light gray text if needed */
 }
 
+/* Paragraph styling */
 p {
     font-size: 16px;
     line-height: 1.6;
 }
 
+/* Link styling */
 a {
-    color: #0066CC;
+    color: #AACC; /* Pastel Teal for links */
     text-decoration: none;
 }
 a:hover {
